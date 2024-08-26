@@ -67,9 +67,12 @@ struct ContentView: View {
 
         # 设置热点名称和密码
 
-        SSID="HONOR V20"
-        PASSWORD="czh906663"
-
+        #SSID="HONOR V20"
+        #PASSWORD="czh906663"
+        
+        SSID="Emiaostein iPhone 11 Pro Navy"
+        PASSWORD="88888888"
+        
         MAX_RETRIES=10
         RETRY_DELAY=5
 

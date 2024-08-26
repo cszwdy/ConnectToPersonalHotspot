@@ -29,9 +29,22 @@
 		2CDB597A2C7C02F500E66715 /* ConnectToPersonalHotspotAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectToPersonalHotspotAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2C0D9FAA2C7C1AE500C8CA46 /* Exceptions for "ConnectToPersonalHotspotApp" folder in "ConnectToPersonalHotspotApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2CDB59592C7C02F300E66715 /* ConnectToPersonalHotspotApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2CDB595C2C7C02F300E66715 /* ConnectToPersonalHotspotApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2C0D9FAA2C7C1AE500C8CA46 /* Exceptions for "ConnectToPersonalHotspotApp" folder in "ConnectToPersonalHotspotApp" target */,
+			);
 			path = ConnectToPersonalHotspotApp;
 			sourceTree = "<group>";
 		};
@@ -401,6 +414,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConnectToPersonalHotspotApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +442,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConnectToPersonalHotspotApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -13,7 +13,8 @@ struct HotspotConnectorApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            ContentView2()
         }
     }
 }
